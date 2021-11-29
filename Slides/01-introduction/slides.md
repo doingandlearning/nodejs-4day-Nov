@@ -21,7 +21,7 @@ drawings:
 
 Kevin Cunningham
 
-Grab repo at https://github.com/doingandlearning/NodeJS-November
+Grab repo at https://github.com/doingandlearning/nodejs-4day-Nov
 
 ---
 
