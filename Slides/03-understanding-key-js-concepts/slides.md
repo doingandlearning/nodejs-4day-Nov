@@ -36,6 +36,8 @@ drawings:
 
 There are seven primitive types - everything else is an object (including functions and arrays).
 
+<v-clicks>
+
 - Null
 - Undefined
 - String
@@ -43,6 +45,8 @@ There are seven primitive types - everything else is an object (including functi
 - Boolean
 - Symbol
 - BigInt
+
+</v-clicks>
 
 --- 
 

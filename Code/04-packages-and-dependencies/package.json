@@ -1,31 +1,20 @@
 {
   "name": "04-packages-and-dependencies",
   "version": "1.0.0",
-  "description": "A fun logging package.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "standard"
+    "hello": "node test.js",
+    "start": "node index.js",
+    "linting": "node test.js",
+    "both": "node both.js"
   },
-  "keywords": [
-    "logging",
-    "fun"
-  ],
-  "author": "Kevin Cunningham",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "pino": "^7.3.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15",
-    "standard": "^16.0.4"
-  },
-  "type": "module",
-  "exports": {
-    ".": "./dist/index.js"
-  },
-  "imports":
+    "morgan": "^1.10.0",
+    "pino": "^7.5.0"
+  }
 }

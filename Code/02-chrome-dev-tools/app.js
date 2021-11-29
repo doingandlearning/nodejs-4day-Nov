@@ -8,6 +8,10 @@
 const http = require("http");
 const fs = require("fs");
 
+debugger;
+
+throw Error()
+
 http
   .createServer(function (req, res) {
     if (req.url === "/favicon.ico") {
@@ -15,7 +19,7 @@ http
     }
     console.log("Incoming request to " + req.url);
 
-    let i = 2;
+    let i = 3;
     res.writeHead(200, { "Content-Type": "text/plain" });
 
     setTimeout(function () {

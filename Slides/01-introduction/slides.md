@@ -47,27 +47,23 @@ Learn more: https://sli.dev/guide/syntax#embedded-styles
 | --- | --- |
 | Intro to Node| Binary data with Buffers |
 | Node on the command line | Data processing with Streams |
-| Debugging | Files, Processes and OSs |
+| Debugging | File system |
 | Core JS Concepts | Child processes |
 | Packages and Dependencies | Testing with Node |
 | Node module system | Express | 
 | Async control flow | RESTful Services |
 | Node event system | SQL with Node | 
-| Error handling |  |
+| Error handling | Serverless |
 
 ---
 
-# Timings
+# Timings (in GMT)
 
 | | |
 | --- | --- |
-| 9.30 - 11 | Session 1 |
-| 11 - 11.15 | Coffee |
-| 11.15 - 12.45 | Session 2 |
-| 12.45 - 1.45 | Lunch |
-| 1.45 - 3.15 | Session 3 |
-| 3.15 - 3.30 | Coffee |
-| 3.30 - 4.30 | Session 4 | 
+| 2pm - 3.30pm | Session 1 |
+| 3.30 - 3.45pm | Coffee |
+| 3.45pm - 5.30pm | Session 2 |
 
 ---
 
@@ -80,6 +76,8 @@ Learn more: https://sli.dev/guide/syntax#embedded-styles
 ---
 
 # What is Node.js?
+
+<p></p>
 
 ![The Event Loop](https://i.stack.imgur.com/Lbs9z.png)
 
