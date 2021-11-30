@@ -18,12 +18,8 @@ const opB = (cb) => {
   }, 250);
 };
 
-const opC = (_, cb) => {
+const opC = (cb) => {
   setTimeout(() => {
     cb(null, "C");
   }, 125);
 };
-
-opA(printPromise().then(() => console.log("I was thened")));
-opB(printPromise.then(() => console.log("I was thened")));
-opC(printPromise.then(() => console.log("I was thened")));

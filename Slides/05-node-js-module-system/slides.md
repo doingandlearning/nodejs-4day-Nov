@@ -24,6 +24,13 @@ drawings:
 
 ---
 
+# Welcome 👋🏻
+
+While you arrive could you:
+- Make sure you pull the changes to our Git repo for today
+- Think of a question or takeaway that you were left with yesterday.
+---
+
 By the end of this section, you should be able to:
 
 - Learn how to load modules.
