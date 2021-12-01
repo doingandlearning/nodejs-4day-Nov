@@ -24,6 +24,15 @@ drawings:
 
 ---
 
+# Good morning, good afternoon, good evening! 👋🏻
+
+Same deal as yesterday:
+
+- Pull down the repo with today's slides and exercises.
+- Have a think about a takeaway from yesterday.
+
+---
+
 By the end of this section, you'll:
 - Understand the anatomy of a Buffer instance.
 - Safely and unsafely create buffers.

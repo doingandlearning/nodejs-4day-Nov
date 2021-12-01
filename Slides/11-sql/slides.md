@@ -44,7 +44,7 @@ By the end of this section, you'll:
 
 # Using an ORM
 
-- Sequelize
+- TypeORM
 - Models
 
 --- 
