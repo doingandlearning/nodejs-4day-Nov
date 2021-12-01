@@ -1,17 +1,35 @@
-import pino from "pino";
-// import { subtract } from "./add";
-import * as funcs from "./add";
+import { EventEmitter } from "events";
 
-import { promises } from "fs";
+class MyEmitter extends EventEmitter {
+  constructor(opts = {}) {
+    super(opts);
+    // this.name = opts.name;
+  }
 
-const logger = pino();
+  destroy(err: any) {
+    if (err) {
+      this.emit("error", err);
+    }
+    this.emit("close");
+  }
+}
 
-const { readFile } = promises;
+const newEmitter = new MyEmitter();
 
-logger.info("my package has started.");
-// logger.info(add(3, 4));
-logger.info(funcs.subtract(3, 4));
+const listener1 = () => {
+  console.log("I'm listener 1");
+};
+const listener2 = () => {
+  console.log("I'm listener 2");
+};
 
-logger.info(require.resolve("pino"));
+newEmitter.on("my-first-event", listener1);
+newEmitter.on("my-first-event", listener2);
+newEmitter.on("error", (err) => console.log(err));
 
-process.stdin.resume();
+newEmitter.emit("my-first-event");
+newEmitter.removeListener("my-first-event", listener1);
+newEmitter.emit("error");
+newEmitter.emit("my-first-event");
+newEmitter.emit("my-first-event");
+newEmitter.emit("my-second-event");

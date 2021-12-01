@@ -12,16 +12,16 @@
 - Understand the development of asyncronous control flow
 - Understand Node's event system
 - Understand and use Express with Types
-- Handle binary data in Node with buffers
 
 # Session 3
 ## Refactor to use SQL
-- Use SQL as a database for applications
+- Handle binary data in Node with buffers
 - Use streams to handle high volume data processing without using corresponding compute resources
-- Use Node's file system access to enchance your applications
+- Use SQL as a database for applications
 
 # Session 4
 ## Explore Serverless Applications 
+- Use Node's file system access to enchance your applications
 - Confidently understand and handle errors in Node
 - Become familar with testing approaches in Node
 - Demonstration of AWS/SAM Node/Lambda use case
